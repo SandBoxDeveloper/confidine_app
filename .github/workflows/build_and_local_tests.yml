@@ -2,9 +2,9 @@ name: Build and local test
 
 on:
   push:
-    branches: [ "main"]
+    branches: [ "main, improvement"]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main, improvement" ]
 
 jobs:
   build:
